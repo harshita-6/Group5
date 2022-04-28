@@ -19,7 +19,7 @@ const Help = () => {
         className="row row-header justify-content-center"
         style={{ paddingTop: "50px" }}
       >
-        <div className="col-lg-12">
+        <div className="col-12 col-lg-8 col-md col-sm-6 ">
           <div class="accordion" id="accordionExample">
             <div class="accordion-item text-center">
               <h2 class="accordion-header" id="headingOne">
@@ -142,85 +142,85 @@ const Help = () => {
                       <tr>
                         <th scope="row">15</th>
                         <td className="fw-bold ">
-                          <a href="#">Manipur</a>
+                          <a href="/Manipur">Manipur</a>
                         </td>
                       </tr>
                       <tr>
                         <th scope="row">16</th>
                         <td className="fw-bold ">
-                          <a href="#">Meghalaya</a>
+                          <a href="/Meg">Meghalaya</a>
                         </td>
                       </tr>
                       <tr>
                         <th scope="row">17</th>
                         <td className="fw-bold ">
-                          <a href="#">Mizoram</a>
+                          <a href="/Miz">Mizoram</a>
                         </td>
                       </tr>
                       <tr>
                         <th scope="row">18</th>
                         <td className="fw-bold ">
-                          <a href="#">Nagaland</a>
+                          <a href="/Naga">Nagaland</a>
                         </td>
                       </tr>
                       <tr>
                         <th scope="row">19</th>
                         <td className="fw-bold ">
-                          <a href="#">Odisha</a>
+                          <a href="/Odi">Odisha</a>
                         </td>
                       </tr>
                       <tr>
                         <th scope="row">20</th>
                         <td className="fw-bold ">
-                          <a href="#">Punjab</a>
+                          <a href="/Punjab">Punjab</a>
                         </td>
                       </tr>
                       <tr>
                         <th scope="row">21</th>
                         <td className="fw-bold ">
-                          <a href="#">Rajasthan</a>
+                          <a href="/Raja">Rajasthan</a>
                         </td>
                       </tr>
                       <tr>
                         <th scope="row">22</th>
                         <td className="fw-bold ">
-                          <a href="#">Sikkim</a>
+                          <a href="/Sik">Sikkim</a>
                         </td>
                       </tr>
                       <tr>
                         <th scope="row">23</th>
                         <td className="fw-bold ">
-                          <a href="#">Tamil Nadu</a>
+                          <a href="/TN">Tamil Nadu</a>
                         </td>
                       </tr>
                       <tr>
                         <th scope="row">24</th>
                         <td className="fw-bold ">
-                          <a href="#">Telangana</a>
+                          <a href="/Tel">Telangana</a>
                         </td>
                       </tr>
                       <tr>
                         <th scope="row">25</th>
                         <td className="fw-bold ">
-                          <a href="#">Tripura</a>
+                          <a href="/TrP">Tripura</a>
                         </td>
                       </tr>
                       <tr>
                         <th scope="row">26</th>
                         <td className="fw-bold ">
-                          <a href="#">Uttar Pradesh</a>
+                          <a href="/UP">Uttar Pradesh</a>
                         </td>
                       </tr>
                       <tr>
                         <th scope="row">27</th>
                         <td className="fw-bold ">
-                          <a href="#">Uttarakhand</a>
+                          <a href="/UK">Uttarakhand</a>
                         </td>
                       </tr>
                       <tr>
                         <th scope="row">28</th>
                         <td className="fw-bold ">
-                          <a href="#">West Bengal</a>
+                          <a href="/WB">West Bengal</a>
                         </td>
                       </tr>
                     </tbody>

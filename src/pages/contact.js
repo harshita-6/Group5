@@ -1,74 +1,84 @@
 import React from "react"
 import Layout from "../components/Layout/layout"
+import Hero from "../components/Hero/hero"
 const Contact = () => {
   return (
     <Layout>
-      <div className="container py-5">
-        <h2 className="p-2 border-bottom fw-bold text-center">Contacts</h2>{" "}
-        <div class="text-center">
-          <h3 class="text-primary">How Can We Help You?</h3>
-          <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisic</p>
-        </div>
-        <div class=" d-flex align-items-center justify-content-center">
-          <div class="bg-white col-lg-8">
-            <div class="p-4 rounded shadow-md">
-              <form
-                method="POST"
-                role="presentation"
-                netlify-honeypot="bot-field"
-                data-netlify="true"
-                name="contact"
-              >
-                <label for="name" class="form-label">
-                  Your Name
+      <div className="container py-5 ">
+        <div class="row justify-content-center py-5">
+          <div class="col-md-3">
+            <div class="contact-info">
+              <img
+                src="https://image.ibb.co/kUASdV/contact-image.png"
+                alt="image"
+              />
+              <h2>Contact Us</h2>
+              <h4>We would love to hear from you !</h4>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="contact-form">
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="fname">
+                  First Name:
                 </label>
-                <input
-                  type="text"
-                  name="name"
-                  class="form-control"
-                  placeholder="Your Name"
-                  required
-                />
-              </form>
-              <div class="mt-3">
-                <label for="email" class="form-label">
-                  Your Email
-                </label>
-                <input
-                  type="text"
-                  name="email"
-                  class="form-control"
-                  placeholder="Your Email"
-                  required
-                />
+                <div class="col-sm-10">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="fname"
+                    placeholder="Enter First Name"
+                    name="fname"
+                  />
+                </div>
               </div>
-              <div class="mt-3">
-                <label for="subject" class="form-label">
-                  Subject
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="lname">
+                  Last Name:
                 </label>
-                <input
-                  type="text"
-                  name="subject"
-                  class="form-control"
-                  placeholder="Subject"
-                  required
-                />
+                <div class="col-sm-10">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lname"
+                    placeholder="Enter Last Name"
+                    name="lname"
+                  />
+                </div>
               </div>
-              <div class="mt-3 mb-3">
-                <label for="message" class="form-label">
-                  Message
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="email">
+                  Email:
                 </label>
-                <textarea
-                  name="message"
-                  cols="20"
-                  rows="6"
-                  class="form-control"
-                  placeholder="message"
-                ></textarea>
+                <div class="col-sm-10">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Enter email"
+                    name="email"
+                  />
+                </div>
               </div>
-              <button type="submit" class="btn btn-primary">
-                Submit Form
-              </button>
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="comment">
+                  Comment:
+                </label>
+                <div class="col-sm-10">
+                  <textarea
+                    class="form-control"
+                    rows="5"
+                    id="comment"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10 py-1">
+                  <button type="submit" class="btn btn-default">
+                    Submit
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
